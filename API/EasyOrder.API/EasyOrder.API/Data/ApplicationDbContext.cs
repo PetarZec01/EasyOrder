@@ -58,7 +58,7 @@ namespace EasyOrder.API.Data
                 .WithMany(e => e.EmployeeJobPositions)
                 .HasForeignKey(e => e.JobPositionId);
 
-            for(var foreignkey in modelBuilder.Model.Ge)
+            
 
         }
     }
